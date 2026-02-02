@@ -1,0 +1,82 @@
+{
+  "id": "a-pound-of-flesh",
+  "title": "A Pound of Flesh",
+  "description": "A space station adventure module for Mothership RPG. Explore Prospero's Dream, a derelict station filled with danger, intrigue, and body horror.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Tuesday Knight Games",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mosh",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.0",
+          "verified": "0.6.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "apof-journals",
+      "label": "A Pound of Flesh - Journals",
+      "path": "packs/apof-journals.db",
+      "type": "JournalEntry",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "apof-actors",
+      "label": "A Pound of Flesh - Actors",
+      "path": "packs/apof-actors.db",
+      "type": "Actor",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "apof-items",
+      "label": "A Pound of Flesh - Items",
+      "path": "packs/apof-items.db",
+      "type": "Item",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "apof-rolltables",
+      "label": "A Pound of Flesh - Roll Tables",
+      "path": "packs/apof-rolltables.db",
+      "type": "RollTable",
+      "system": "mosh",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "url": "https://www.tuesdayknightgames.com/",
+  "license": "LICENSE.txt",
+  "flags": {}
+}
